@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+        <item name="android:windowBackground">@color/drumeo_blue</item>
+        <item name="android:navigationBarColor">@color/light</item>
+        <item name="android:windowLightNavigationBar">true</item>
+
+    </style>
+
+    <style name="AppThemeDark" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+        <item name="android:windowBackground">@color/drumeo_blue</item>
+        <item name="android:navigationBarColor">@color/dark</item>
+        <item name="android:windowLightNavigationBar">true</item>
+
+    </style>
+
+
+
+</resources>
